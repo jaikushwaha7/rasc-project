@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs and caches
+logs/
+*.log
+.cache/
+.pytest_cache/
+
+# Experiment outputs and runs
+experiments/
+runs/
+outputs/
+
+# Large datasets and raw assets
+/data/raw/
+/data/processed/
+/data/splits/
+
+# Model artifacts
+models/**/weights/
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.bin
+*.npz
+*.npy
