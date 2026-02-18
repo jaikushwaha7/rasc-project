@@ -1,0 +1,34 @@
+2026-02-12 00:58:53 - models.inference - INFO - Using device: cuda
+2026-02-12 00:58:53 - models.inference - INFO - Loading models...
+2026-02-12 00:58:53 - models.inference - INFO - Loading YOLO from yolov8n.pt
+2026-02-12 00:58:53 - models.inference - INFO - Loading relationship model from models/relationship_predictor/neural_motifs_best.pt
+2026-02-12 00:58:53 - models.inference - INFO - Loading caption model from models/caption_generator/t5_scene
+2026-02-12 00:58:54 - models.inference - INFO - Inference pipeline ready
+2026-02-12 00:59:07 - models.inference - INFO - Detecting objects in temp_input.jpg
+2026-02-12 00:59:07 - models.inference - INFO - Detected 9 objects in 830.7ms
+2026-02-12 00:59:07 - models.inference - INFO - Predicting relationships for 9 objects
+2026-02-12 01:01:29 - models.inference - INFO - Detecting objects in temp_input.jpg
+2026-02-12 01:01:29 - models.inference - INFO - Detected 9 objects in 93.3ms
+2026-02-12 01:01:29 - models.inference - INFO - Predicting relationships for 9 objects
+2026-02-12 01:04:26 - models.inference - INFO - Detecting objects in temp_input.jpg
+2026-02-12 01:04:27 - models.inference - INFO - Detected 9 objects in 94.0ms
+2026-02-12 01:04:27 - models.inference - INFO - Predicting relationships for 9 objects
+2026-02-12 01:04:59 - models.inference - INFO - Loading models...
+2026-02-12 01:04:59 - models.inference - INFO - Loading YOLO from yolov8n.pt
+2026-02-12 01:04:59 - models.inference - INFO - Loading relationship model from models/relationship_predictor/neural_motifs_best.pt
+2026-02-12 01:04:59 - models.inference - INFO - Loading caption model from models/caption_generator/t5_scene
+2026-02-12 01:04:59 - models.inference - INFO - Inference pipeline ready
+2026-02-12 01:05:12 - models.inference - INFO - Detecting objects in temp_input.jpg
+2026-02-12 01:05:13 - models.inference - INFO - Detected 9 objects in 1209.0ms
+2026-02-12 01:05:13 - models.inference - INFO - Predicting relationships for 9 objects
+2026-02-12 01:05:13 - models.inference - ERROR - Error in relationship prediction: NeuralMotifs.forward() missing 1 required positional argument: 'o_box'
+2026-02-12 01:05:13 - models.inference - ERROR - obj_classes shape: torch.Size([9])
+2026-02-12 01:05:13 - models.inference - ERROR - obj_boxes shape: torch.Size([9, 4])
+2026-02-12 01:05:13 - models.inference - ERROR - pair_idx shape: torch.Size([72, 2])
+2026-02-12 01:08:38 - models.inference - INFO - Detecting objects in temp_input.jpg
+2026-02-12 01:08:38 - models.inference - INFO - Detected 9 objects in 130.5ms
+2026-02-12 01:08:38 - models.inference - INFO - Predicting relationships for 9 objects
+2026-02-12 01:08:38 - models.inference - ERROR - Error in relationship prediction: NeuralMotifs.forward() missing 1 required positional argument: 'o_box'
+2026-02-12 01:08:38 - models.inference - ERROR - obj_classes shape: torch.Size([9])
+2026-02-12 01:08:38 - models.inference - ERROR - obj_boxes shape: torch.Size([9, 4])
+2026-02-12 01:08:38 - models.inference - ERROR - pair_idx shape: torch.Size([72, 2])

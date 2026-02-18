@@ -1,0 +1,10 @@
+{
+  "model_type": "neural_motifs",
+  "num_classes": 150,
+  "num_relations": 10,
+  "epochs": 10,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "embedding_dim": 128,
+  "hidden_dim": 512
+}

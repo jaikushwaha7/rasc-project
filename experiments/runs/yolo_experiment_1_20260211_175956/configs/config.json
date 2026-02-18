@@ -1,0 +1,13 @@
+{
+  "model": "yolov8n",
+  "epochs": 50,
+  "batch_size": 16,
+  "image_size": [
+    512,
+    640
+  ],
+  "optimizer": "AdamW",
+  "learning_rate": 0.01,
+  "dataset": "VG-5K",
+  "device": "cpu"
+}

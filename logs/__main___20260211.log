@@ -1,0 +1,278 @@
+2026-02-11 17:59:56 - __main__ - INFO - Initialized YOLO trainer: yolo_experiment_1
+2026-02-11 17:59:56 - __main__ - INFO - Model: yolov8n
+2026-02-11 17:59:56 - __main__ - INFO - Epochs: 50, Batch size: 16
+2026-02-11 17:59:56 - __main__ - INFO - Image size: [512, 640]
+2026-02-11 17:59:56 - __main__ - INFO - Device: cpu
+2026-02-11 17:59:56 - __main__ - INFO - ============================================================
+2026-02-11 17:59:56 - __main__ - INFO - Starting YOLO training: yolo_experiment_1
+2026-02-11 17:59:56 - __main__ - INFO - ============================================================
+2026-02-11 17:59:56 - __main__ - INFO - Loading pretrained yolov8n model...
+2026-02-11 17:59:57 - __main__ - INFO - Starting training...
+2026-02-11 18:01:16 - __main__ - INFO - Initialized YOLO trainer: yolo_experiment_1
+2026-02-11 18:01:16 - __main__ - INFO - Model: yolov8n
+2026-02-11 18:01:16 - __main__ - INFO - Epochs: 10, Batch size: 16
+2026-02-11 18:01:16 - __main__ - INFO - Image size: [512, 640]
+2026-02-11 18:01:16 - __main__ - INFO - Device: cpu
+2026-02-11 18:01:16 - __main__ - INFO - ============================================================
+2026-02-11 18:01:16 - __main__ - INFO - Starting YOLO training: yolo_experiment_1
+2026-02-11 18:01:16 - __main__ - INFO - ============================================================
+2026-02-11 18:01:16 - __main__ - INFO - Loading pretrained yolov8n model...
+2026-02-11 18:01:16 - __main__ - INFO - Starting training...
+2026-02-11 19:53:14 - __main__ - INFO - Training completed. Extracting metrics...
+2026-02-11 19:53:14 - __main__ - INFO - Extracted metrics:
+2026-02-11 19:53:14 - __main__ - INFO -   mAP50: 0.0761
+2026-02-11 19:53:14 - __main__ - INFO -   mAP50_95: 0.0518
+2026-02-11 19:53:14 - __main__ - INFO -   precision: 0.5012
+2026-02-11 19:53:14 - __main__ - INFO -   recall: 0.0995
+2026-02-11 19:53:14 - __main__ - INFO - Metrics saved to experiments\runs\yolo_experiment_1_20260211_180116\metrics\final_metrics.json
+2026-02-11 19:53:14 - __main__ - INFO - ============================================================
+2026-02-11 19:53:14 - __main__ - INFO - YOLO training completed successfully
+2026-02-11 19:53:14 - __main__ - INFO - Results saved to: experiments\runs\yolo_experiment_1_20260211_180116
+2026-02-11 19:53:14 - __main__ - INFO - ============================================================
+2026-02-11 19:57:02 - __main__ - INFO - Initialized relationship trainer: relationship_neural_motifs
+2026-02-11 19:57:02 - __main__ - INFO - Model type: neural_motifs
+2026-02-11 19:57:02 - __main__ - INFO - Device: cuda
+2026-02-11 19:57:02 - __main__ - INFO - ============================================================
+2026-02-11 19:57:02 - __main__ - INFO - Starting relationship model training
+2026-02-11 19:57:02 - __main__ - INFO - ============================================================
+2026-02-11 19:57:02 - __main__ - INFO - Creating data loaders...
+2026-02-11 19:57:02 - __main__ - INFO - Loaded 1665 relationship pairs
+2026-02-11 19:57:02 - __main__ - INFO - Train samples: 1415
+2026-02-11 19:57:02 - __main__ - INFO - Val samples: 250
+2026-02-11 19:57:02 - __main__ - INFO - Creating neural_motifs model...
+2026-02-11 20:03:12 - __main__ - INFO - Initialized relationship trainer: relationship_neural_motifs
+2026-02-11 20:03:12 - __main__ - INFO - Model type: neural_motifs
+2026-02-11 20:03:12 - __main__ - INFO - Device: cuda
+2026-02-11 20:03:12 - __main__ - INFO - ============================================================
+2026-02-11 20:03:12 - __main__ - INFO - Starting relationship model training
+2026-02-11 20:03:12 - __main__ - INFO - ============================================================
+2026-02-11 20:03:12 - __main__ - INFO - Creating data loaders...
+2026-02-11 20:03:12 - __main__ - INFO - Loaded 1665 relationship pairs
+2026-02-11 20:03:12 - __main__ - INFO - Train samples: 1415
+2026-02-11 20:03:12 - __main__ - INFO - Val samples: 250
+2026-02-11 20:03:12 - __main__ - INFO - Creating neural_motifs model...
+2026-02-11 20:07:28 - __main__ - INFO - Initialized relationship trainer: relationship_neural_motifs
+2026-02-11 20:07:28 - __main__ - INFO - Model type: neural_motifs
+2026-02-11 20:07:28 - __main__ - INFO - Device: cuda
+2026-02-11 20:07:28 - __main__ - INFO - ============================================================
+2026-02-11 20:07:28 - __main__ - INFO - Starting relationship model training
+2026-02-11 20:07:28 - __main__ - INFO - ============================================================
+2026-02-11 20:07:28 - __main__ - INFO - Creating data loaders...
+2026-02-11 20:07:28 - __main__ - INFO - Loaded 1665 relationship pairs
+2026-02-11 20:07:28 - __main__ - INFO - Train samples: 1415
+2026-02-11 20:07:28 - __main__ - INFO - Val samples: 250
+2026-02-11 20:07:28 - __main__ - INFO - Creating neural_motifs model...
+2026-02-11 20:08:07 - __main__ - INFO - Initialized relationship trainer: relationship_neural_motifs
+2026-02-11 20:08:07 - __main__ - INFO - Model type: neural_motifs
+2026-02-11 20:08:07 - __main__ - INFO - Device: cuda
+2026-02-11 20:08:07 - __main__ - INFO - ============================================================
+2026-02-11 20:08:07 - __main__ - INFO - Starting relationship model training
+2026-02-11 20:08:07 - __main__ - INFO - ============================================================
+2026-02-11 20:08:07 - __main__ - INFO - Creating data loaders...
+2026-02-11 20:08:07 - __main__ - INFO - Loaded 1665 relationship pairs
+2026-02-11 20:08:07 - __main__ - INFO - Train samples: 1415
+2026-02-11 20:08:07 - __main__ - INFO - Val samples: 250
+2026-02-11 20:08:07 - __main__ - INFO - Creating neural_motifs model...
+2026-02-11 20:14:43 - __main__ - INFO - Initialized relationship trainer: relationship_neural_motifs
+2026-02-11 20:14:43 - __main__ - INFO - Model type: neural_motifs
+2026-02-11 20:14:43 - __main__ - INFO - Device: cuda
+2026-02-11 20:14:43 - __main__ - INFO - ============================================================
+2026-02-11 20:14:43 - __main__ - INFO - Starting relationship model training
+2026-02-11 20:14:43 - __main__ - INFO - ============================================================
+2026-02-11 20:14:43 - __main__ - INFO - Creating data loaders...
+2026-02-11 20:14:43 - __main__ - INFO - Loaded 1665 relationship pairs
+2026-02-11 20:14:43 - __main__ - INFO - Train samples: 1415
+2026-02-11 20:14:43 - __main__ - INFO - Val samples: 250
+2026-02-11 20:14:43 - __main__ - INFO - Creating neural_motifs model...
+2026-02-11 20:14:51 - __main__ - INFO - Epoch 0 [Train] - Loss: 1.8403, Accuracy: 0.4375
+2026-02-11 20:14:56 - __main__ - INFO - Epoch 0 [Val] - Loss: 1.5126, Accuracy: 0.4800
+2026-02-11 20:20:21 - __main__ - INFO - Initialized relationship trainer: relationship_neural_motifs
+2026-02-11 20:20:21 - __main__ - INFO - Model type: neural_motifs
+2026-02-11 20:20:21 - __main__ - INFO - Device: cuda
+2026-02-11 20:20:21 - __main__ - INFO - ============================================================
+2026-02-11 20:20:21 - __main__ - INFO - Starting relationship model training
+2026-02-11 20:20:21 - __main__ - INFO - ============================================================
+2026-02-11 20:20:21 - __main__ - INFO - Creating data loaders...
+2026-02-11 20:20:21 - __main__ - INFO - Loaded 1665 relationship pairs
+2026-02-11 20:20:21 - __main__ - INFO - Train samples: 1415
+2026-02-11 20:20:21 - __main__ - INFO - Val samples: 250
+2026-02-11 20:20:21 - __main__ - INFO - Creating neural_motifs model...
+2026-02-11 20:20:28 - __main__ - INFO - Epoch 0 [Train] - Loss: 1.8446, Accuracy: 0.3922
+2026-02-11 20:20:34 - __main__ - INFO - Epoch 0 [Val] - Loss: 1.5207, Accuracy: 0.4720
+2026-02-11 20:20:34 - __main__ - INFO - Saved best model to models\relationship_predictor\neural_motifs_best.pt
+2026-02-11 20:20:39 - __main__ - INFO - Epoch 1 [Train] - Loss: 1.3386, Accuracy: 0.5329
+2026-02-11 20:20:44 - __main__ - INFO - Epoch 1 [Val] - Loss: 1.3823, Accuracy: 0.5440
+2026-02-11 20:20:44 - __main__ - INFO - Saved best model to models\relationship_predictor\neural_motifs_best.pt
+2026-02-11 20:20:50 - __main__ - INFO - Epoch 2 [Train] - Loss: 1.1564, Accuracy: 0.6205
+2026-02-11 20:20:55 - __main__ - INFO - Epoch 2 [Val] - Loss: 1.3456, Accuracy: 0.5520
+2026-02-11 20:20:55 - __main__ - INFO - Saved best model to models\relationship_predictor\neural_motifs_best.pt
+2026-02-11 20:21:01 - __main__ - INFO - Epoch 3 [Train] - Loss: 0.9628, Accuracy: 0.6678
+2026-02-11 20:21:06 - __main__ - INFO - Epoch 3 [Val] - Loss: 1.3463, Accuracy: 0.5640
+2026-02-11 20:21:12 - __main__ - INFO - Epoch 4 [Train] - Loss: 0.8208, Accuracy: 0.7265
+2026-02-11 20:21:17 - __main__ - INFO - Epoch 4 [Val] - Loss: 1.3484, Accuracy: 0.5920
+2026-02-11 20:21:22 - __main__ - INFO - Epoch 5 [Train] - Loss: 0.7095, Accuracy: 0.7675
+2026-02-11 20:21:28 - __main__ - INFO - Epoch 5 [Val] - Loss: 1.4331, Accuracy: 0.5840
+2026-02-11 20:21:33 - __main__ - INFO - Epoch 6 [Train] - Loss: 0.6302, Accuracy: 0.7859
+2026-02-11 20:21:39 - __main__ - INFO - Epoch 6 [Val] - Loss: 1.4439, Accuracy: 0.6160
+2026-02-11 20:21:44 - __main__ - INFO - Epoch 7 [Train] - Loss: 0.5319, Accuracy: 0.8049
+2026-02-11 20:21:49 - __main__ - INFO - Epoch 7 [Val] - Loss: 1.4944, Accuracy: 0.5880
+2026-02-11 20:21:55 - __main__ - INFO - Epoch 8 [Train] - Loss: 0.5213, Accuracy: 0.8226
+2026-02-11 20:22:00 - __main__ - INFO - Epoch 8 [Val] - Loss: 1.6520, Accuracy: 0.5880
+2026-02-11 20:22:06 - __main__ - INFO - Epoch 9 [Train] - Loss: 0.5139, Accuracy: 0.8042
+2026-02-11 20:22:11 - __main__ - INFO - Epoch 9 [Val] - Loss: 1.6116, Accuracy: 0.5960
+2026-02-11 20:22:11 - __main__ - INFO - ============================================================
+2026-02-11 20:22:11 - __main__ - INFO - Training completed successfully
+2026-02-11 20:22:11 - __main__ - INFO - Best validation loss: 1.3456
+2026-02-11 20:22:11 - __main__ - INFO - ============================================================
+2026-02-11 21:17:48 - __main__ - INFO - Using device: cuda
+2026-02-11 21:17:49 - __main__ - INFO - Generating captions...
+2026-02-11 21:22:40 - __main__ - INFO - Computing CIDEr...
+2026-02-11 21:22:41 - __main__ - INFO - Computing BLEU...
+2026-02-11 21:22:41 - __main__ - INFO - Evaluation complete: {'CIDEr': 8.88698855323635, 'BLEU-4': 0.8524555571807043, 'num_samples': 4225, 'model': 'T5-small'}
+2026-02-11 21:25:40 - __main__ - INFO - Loading models...
+2026-02-11 21:25:40 - __main__ - INFO - Loading YOLO from yolov8n.pt
+2026-02-11 21:25:40 - __main__ - INFO - Loading relationship model from models\relationship_predictor\neural_motifs.pt
+2026-02-11 21:25:40 - __main__ - INFO - Loading caption model from models\caption_generator\t5_scene
+2026-02-11 21:25:41 - __main__ - INFO - Inference pipeline ready
+2026-02-11 21:25:41 - __main__ - INFO - ============================================================
+2026-02-11 21:25:41 - __main__ - INFO - Running inference on path/to/image.jpg
+2026-02-11 21:25:41 - __main__ - INFO - ============================================================
+2026-02-11 21:25:41 - __main__ - INFO - Detecting objects in path/to/image.jpg
+2026-02-11 21:27:52 - __main__ - INFO - Loading models...
+2026-02-11 21:27:52 - __main__ - INFO - Loading YOLO from yolov8n.pt
+2026-02-11 21:27:52 - __main__ - INFO - Loading relationship model from models\relationship_predictor\neural_motifs.pt
+2026-02-11 21:27:52 - __main__ - INFO - Loading caption model from models\caption_generator\t5_scene
+2026-02-11 21:27:52 - __main__ - INFO - Inference pipeline ready
+2026-02-11 21:27:52 - __main__ - INFO - ============================================================
+2026-02-11 21:27:52 - __main__ - INFO - Running inference on path/to/image.jpg
+2026-02-11 21:27:52 - __main__ - INFO - ============================================================
+2026-02-11 21:27:52 - __main__ - INFO - Detecting objects in path/to/image.jpg
+2026-02-11 21:28:07 - __main__ - INFO - Loading models...
+2026-02-11 21:28:07 - __main__ - INFO - Loading YOLO from yolov8n.pt
+2026-02-11 21:28:07 - __main__ - INFO - Loading relationship model from models\relationship_predictor\neural_motifs.pt
+2026-02-11 21:28:07 - __main__ - INFO - Loading caption model from models\caption_generator\t5_scene
+2026-02-11 21:28:07 - __main__ - INFO - Inference pipeline ready
+2026-02-11 21:28:07 - __main__ - INFO - ============================================================
+2026-02-11 21:28:07 - __main__ - INFO - Running inference on data/test/alexanderplatz.png
+2026-02-11 21:28:07 - __main__ - INFO - ============================================================
+2026-02-11 21:28:07 - __main__ - INFO - Detecting objects in data/test/alexanderplatz.png
+2026-02-11 21:28:08 - __main__ - INFO - Detected 15 objects in 986.1ms
+2026-02-11 21:28:08 - __main__ - INFO - Predicting relationships for 15 objects
+2026-02-11 21:30:39 - __main__ - INFO - Loading models...
+2026-02-11 21:30:39 - __main__ - INFO - Loading YOLO from yolov8n.pt
+2026-02-11 21:30:39 - __main__ - INFO - Loading relationship model from models\relationship_predictor\neural_motifs.pt
+2026-02-11 21:30:39 - __main__ - INFO - Loading caption model from models\caption_generator\t5_scene
+2026-02-11 21:30:39 - __main__ - INFO - Inference pipeline ready
+2026-02-11 21:30:39 - __main__ - INFO - ============================================================
+2026-02-11 21:30:39 - __main__ - INFO - Running inference on data/test/alexanderplatz.png
+2026-02-11 21:30:39 - __main__ - INFO - ============================================================
+2026-02-11 21:30:39 - __main__ - INFO - Detecting objects in data/test/alexanderplatz.png
+2026-02-11 21:30:40 - __main__ - INFO - Detected 15 objects in 937.4ms
+2026-02-11 21:30:40 - __main__ - INFO - Predicting relationships for 15 objects
+2026-02-11 21:36:35 - __main__ - INFO - Using device: cuda
+2026-02-11 21:36:35 - __main__ - INFO - Loading models...
+2026-02-11 21:36:35 - __main__ - INFO - Loading YOLO from yolov8n.pt
+2026-02-11 21:36:35 - __main__ - INFO - Loading relationship model from models\relationship_predictor\neural_motifs.pt
+2026-02-11 21:36:35 - __main__ - INFO - Loading caption model from models\caption_generator\t5_scene
+2026-02-11 21:36:36 - __main__ - INFO - Inference pipeline ready
+2026-02-11 21:36:36 - __main__ - INFO - ============================================================
+2026-02-11 21:36:36 - __main__ - INFO - Running inference on data/test/alexanderplatz.png
+2026-02-11 21:36:36 - __main__ - INFO - ============================================================
+2026-02-11 21:36:36 - __main__ - INFO - Detecting objects in data/test/alexanderplatz.png
+2026-02-11 21:36:36 - __main__ - INFO - Detected 15 objects in 764.9ms
+2026-02-11 21:36:36 - __main__ - INFO - Predicting relationships for 15 objects
+2026-02-11 21:38:05 - __main__ - INFO - Using device: cuda
+2026-02-11 21:38:05 - __main__ - INFO - Loading models...
+2026-02-11 21:38:05 - __main__ - INFO - Loading YOLO from yolov8n.pt
+2026-02-11 21:38:05 - __main__ - INFO - Loading relationship model from models\relationship_predictor\neural_motifs.pt
+2026-02-11 21:38:05 - __main__ - INFO - Loading caption model from models\caption_generator\t5_scene
+2026-02-11 21:38:06 - __main__ - INFO - Inference pipeline ready
+2026-02-11 21:38:06 - __main__ - INFO - ============================================================
+2026-02-11 21:38:06 - __main__ - INFO - Running inference on data/test/alexanderplatz.png
+2026-02-11 21:38:06 - __main__ - INFO - ============================================================
+2026-02-11 21:38:06 - __main__ - INFO - Detecting objects in data/test/alexanderplatz.png
+2026-02-11 21:38:06 - __main__ - INFO - Detected 15 objects in 716.1ms
+2026-02-11 21:38:06 - __main__ - INFO - Predicting relationships for 15 objects
+2026-02-11 21:40:13 - __main__ - INFO - Using device: cuda
+2026-02-11 21:40:13 - __main__ - INFO - Loading models...
+2026-02-11 21:40:13 - __main__ - INFO - Loading YOLO from yolov8n.pt
+2026-02-11 21:40:14 - __main__ - INFO - Loading relationship model from models\relationship_predictor\neural_motifs.pt
+2026-02-11 21:40:14 - __main__ - INFO - Loading caption model from models\caption_generator\t5_scene
+2026-02-11 21:40:14 - __main__ - INFO - Inference pipeline ready
+2026-02-11 21:40:14 - __main__ - INFO - ============================================================
+2026-02-11 21:40:14 - __main__ - INFO - Running inference on data/test/61.jpg
+2026-02-11 21:40:14 - __main__ - INFO - ============================================================
+2026-02-11 21:40:14 - __main__ - INFO - Detecting objects in data/test/61.jpg
+2026-02-11 21:40:15 - __main__ - INFO - Detected 9 objects in 707.5ms
+2026-02-11 21:40:15 - __main__ - INFO - Predicting relationships for 9 objects
+2026-02-11 21:44:29 - __main__ - INFO - Using device: cuda
+2026-02-11 21:44:29 - __main__ - INFO - Loading models...
+2026-02-11 21:44:29 - __main__ - INFO - Loading YOLO from yolov8n.pt
+2026-02-11 21:44:29 - __main__ - INFO - Loading relationship model from models\relationship_predictor\neural_motifs.pt
+2026-02-11 21:44:29 - __main__ - INFO - Loading caption model from models\caption_generator\t5_scene
+2026-02-11 21:44:30 - __main__ - INFO - Inference pipeline ready
+2026-02-11 21:44:30 - __main__ - INFO - ============================================================
+2026-02-11 21:44:30 - __main__ - INFO - Running inference on data/test/61.jpg
+2026-02-11 21:44:30 - __main__ - INFO - ============================================================
+2026-02-11 21:44:30 - __main__ - INFO - Detecting objects in data/test/61.jpg
+2026-02-11 21:44:31 - __main__ - INFO - Detected 9 objects in 737.4ms
+2026-02-11 21:44:31 - __main__ - INFO - Predicting relationships for 9 objects
+2026-02-11 22:09:42 - __main__ - INFO - Using device: cuda
+2026-02-11 22:38:56 - __main__ - INFO - Using device: cuda
+2026-02-11 22:39:33 - __main__ - INFO - Using device: cuda
+2026-02-11 22:48:52 - __main__ - INFO - Using device: cuda
+2026-02-11 22:48:52 - __main__ - INFO - Loaded 250 relationship pairs
+2026-02-11 22:49:01 - __main__ - INFO - Evaluation Complete!
+2026-02-11 22:49:01 - __main__ - INFO - Accuracy: 0.6320
+2026-02-11 22:49:01 - __main__ - INFO - F1-Macro: 0.4464
+2026-02-11 22:49:01 - __main__ - INFO - F1 per class:
+2026-02-11 22:49:01 - __main__ - INFO - left of: 0.0000
+2026-02-11 22:49:01 - __main__ - INFO - right of: 0.0000
+2026-02-11 22:49:01 - __main__ - INFO - in front of: 0.5660
+2026-02-11 22:49:01 - __main__ - INFO - behind: 0.6730
+2026-02-11 22:49:01 - __main__ - INFO - on top of: 0.8608
+2026-02-11 22:49:01 - __main__ - INFO - under: 0.5455
+2026-02-11 22:49:01 - __main__ - INFO - inside: 0.5806
+2026-02-11 22:49:01 - __main__ - INFO - around: 0.0000
+2026-02-11 22:49:01 - __main__ - INFO - over: 0.3077
+2026-02-11 22:49:01 - __main__ - INFO - next to: 0.4839
+2026-02-11 22:49:01 - __main__ - INFO - Confusion Matrix:
+2026-02-11 22:49:01 - __main__ - INFO - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2026-02-11 22:49:01 - __main__ - INFO - [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+2026-02-11 22:49:01 - __main__ - INFO - [0, 0, 15, 7, 1, 0, 1, 0, 0, 1]
+2026-02-11 22:49:01 - __main__ - INFO - [0, 0, 7, 71, 2, 2, 1, 0, 0, 1]
+2026-02-11 22:49:01 - __main__ - INFO - [0, 0, 0, 3, 34, 0, 0, 0, 0, 0]
+2026-02-11 22:49:01 - __main__ - INFO - [0, 0, 0, 10, 3, 12, 1, 0, 0, 1]
+2026-02-11 22:49:01 - __main__ - INFO - [0, 0, 0, 5, 1, 1, 9, 0, 0, 0]
+2026-02-11 22:49:01 - __main__ - INFO - [0, 0, 0, 5, 0, 0, 0, 0, 0, 1]
+2026-02-11 22:49:01 - __main__ - INFO - [0, 0, 0, 8, 0, 0, 1, 0, 2, 0]
+2026-02-11 22:49:01 - __main__ - INFO - [0, 0, 6, 17, 1, 2, 2, 0, 0, 15]
+2026-02-11 22:53:58 - __main__ - INFO - Using device: cuda
+2026-02-11 22:53:58 - __main__ - WARNING - data\processed\relationship_pairs\test\train.json does not exist, skipping
+2026-02-11 22:53:58 - __main__ - WARNING - data\processed\relationship_pairs\test\val.json does not exist, skipping
+2026-02-11 22:53:58 - __main__ - WARNING - data\processed\relationship_pairs\test\test.json does not exist, skipping
+2026-02-11 22:54:45 - __main__ - INFO - Using device: cuda
+2026-02-11 22:54:45 - __main__ - INFO - Evaluating train split
+2026-02-11 22:54:45 - __main__ - INFO - Loaded 1273 relationship pairs from data\processed\relationships\test\train.json
+2026-02-11 22:54:54 - __main__ - INFO - Saved train metrics to outputs\eval_relationships\train_metrics.json
+2026-02-11 22:54:54 - __main__ - INFO - TRAIN METRICS:
+2026-02-11 22:54:54 - __main__ - INFO - Accuracy: 0.6559
+2026-02-11 22:54:54 - __main__ - INFO - F1-Macro: 0.3696
+2026-02-11 22:54:54 - __main__ - INFO - Evaluating val split
+2026-02-11 22:54:54 - __main__ - INFO - Loaded 142 relationship pairs from data\processed\relationships\test\val.json
+2026-02-11 22:55:03 - __main__ - INFO - Saved val metrics to outputs\eval_relationships\val_metrics.json
+2026-02-11 22:55:03 - __main__ - INFO - VAL METRICS:
+2026-02-11 22:55:03 - __main__ - INFO - Accuracy: 0.6690
+2026-02-11 22:55:03 - __main__ - INFO - F1-Macro: 0.4656
+2026-02-11 22:55:03 - __main__ - INFO - Evaluating test split
+2026-02-11 22:55:03 - __main__ - INFO - Loaded 250 relationship pairs from data\processed\relationships\test\test.json
+2026-02-11 22:55:11 - __main__ - INFO - Saved test metrics to outputs\eval_relationships\test_metrics.json
+2026-02-11 22:55:11 - __main__ - INFO - TEST METRICS:
+2026-02-11 22:55:11 - __main__ - INFO - Accuracy: 0.6320
+2026-02-11 22:55:11 - __main__ - INFO - F1-Macro: 0.4464
+2026-02-11 23:15:14 - __main__ - INFO - Initialized YOLO trainer: yolo_detection_20260211_231514
+2026-02-11 23:15:14 - __main__ - INFO - Model: yolov8n
+2026-02-11 23:15:14 - __main__ - INFO - Epochs: 10, Batch size: 16
+2026-02-11 23:15:14 - __main__ - INFO - Image size: [512, 640]
+2026-02-11 23:15:14 - __main__ - INFO - Device: cpu
+2026-02-11 23:15:14 - __main__ - INFO - Evaluating model: path/to/best.pt

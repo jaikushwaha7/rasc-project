@@ -1,0 +1,167 @@
+# RASC Configuration File
+# Relationship-Aware Scene Captioning
+
+project:
+  name: "rasc"
+  version: "1.0.0"
+  description: "Relationship-Aware Scene Captioning for Accessibility"
+  seed: 42
+
+paths:
+  # Data paths
+  raw_data: "data/raw/visual_genome"
+  processed_data: "data/processed"
+  vg_images: "data/raw/visual_genome/VG_100K"
+  
+  # Output paths
+  models: "models"
+  experiments: "experiments/runs"
+  logs: "logs"
+  
+  # Intermediate files
+  vg_subset: "data/processed/vg_5k_subset.json"
+  label_map: "data/processed/label_map.json"
+  relationship_pairs: "data/processed/relationships/relationship_pairs.json"
+  t5_data: "data/processed/scene_graphs/t5_data.json"
+  splits: "data/splits"
+  detection_data: "data/processed/detection"
+
+dataset:
+  target_images: 5000
+  top_k_objects: 150
+  spatial_relations:
+    - "left of"
+    - "right of"
+    - "in front of"
+    - "behind"
+    - "on top of"
+    - "under"
+    - "inside"
+    - "around"
+    - "over"
+    - "next to"
+  
+  splits:
+    train: 0.7
+    val: 0.15
+    test: 0.15
+
+# YOLOv8 Detection Configuration
+detection:
+  model_name: "yolov8n"
+  pretrained: true
+  
+  training:
+    epochs: 10
+    batch_size: 16
+    image_size: [512, 640]
+    workers: 4
+    device: "cpu"  # or "cuda:0"
+    
+  optimizer:
+    name: "AdamW"
+    lr0: 0.01
+    momentum: 0.937
+    weight_decay: 0.0005
+    
+  augmentation:
+    hsv_h: 0.015
+    hsv_s: 0.7
+    hsv_v: 0.4
+    degrees: 0.0
+    translate: 0.1
+    scale: 0.5
+    mosaic: 1.0
+    
+  inference:
+    conf_threshold: 0.25
+    iou_threshold: 0.45
+    max_detections: 15
+
+# Relationship Prediction Configuration
+relationship:
+  model_type: "neural_motifs"  # or "mlp"
+  num_classes: 150
+  num_relations: 10
+  embedding_dim: 128
+  
+  training:
+    epochs: 10
+    batch_size: 64
+    learning_rate: 0.001
+    weight_decay: 0.0001
+    
+  architecture:
+    hidden_dim: 512
+    dropout: 0.1
+    bidirectional: true
+
+# T5 Caption Generation Configuration
+captioning:
+  model_name: "t5-small"
+  
+  training:
+    epochs: 5
+    batch_size: 8
+    learning_rate: 0.0001
+    warmup_steps: 500
+    eval_steps: 500
+    save_steps: 1000
+    
+  tokenizer:
+    max_input_length: 512
+    max_target_length: 64
+    padding: "max_length"
+    truncation: true
+    
+  generation:
+    max_length: 64
+    num_beams: 4
+    early_stopping: true
+    length_penalty: 2.0
+
+# Evaluation Metrics
+evaluation:
+  detection:
+    - "mAP@0.5"
+    - "mAP@0.5:0.95"
+    - "Precision"
+    - "Recall"
+    
+  relationship:
+    - "F1-Score"
+    - "Accuracy"
+    - "Confusion Matrix"
+    
+  captioning:
+    - "CIDEr"
+    - "BLEU-4"
+    - "METEOR"
+    - "ROUGE-L"
+
+# Logging Configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  console: true
+  file: true
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+  wandb:
+    enabled: true
+    project: "rasc"
+    entity: null
+    
+  tensorboard:
+    enabled: true
+    
+# Experiment Tracking
+experiment:
+  track_metrics: true
+  save_checkpoints: true
+  checkpoint_frequency: 5  # epochs
+  keep_best_n: 3
+  early_stopping:
+    enabled: true
+    patience: 10
+    metric: "val_loss"
+    mode: "min"

@@ -1,0 +1,38 @@
+2026-02-12 00:44:36 - src.models.inference - INFO - Using device: cuda
+2026-02-12 00:44:36 - src.models.inference - INFO - Loading models...
+2026-02-12 00:44:36 - src.models.inference - INFO - Loading YOLO from runs/detect/experiments/runs/yolo_experiment_1/weights/best.pt
+2026-02-12 00:44:36 - src.models.inference - INFO - Loading relationship model from models/relationship_predictor/neural_motifs_best.pt
+2026-02-12 00:44:36 - src.models.inference - INFO - Loading caption model from models/caption_generator/t5_scene
+2026-02-12 00:44:37 - src.models.inference - INFO - Inference pipeline ready
+2026-02-12 00:45:33 - src.models.inference - INFO - Detecting objects in <PIL.Image.Image image mode=RGB size=800x600 at 0x257BB9A8980>
+2026-02-12 00:45:34 - src.models.inference - INFO - Detected 11 objects in 1335.8ms
+2026-02-12 00:45:34 - src.models.inference - INFO - Predicting relationships for 11 objects
+2026-02-12 00:50:12 - src.models.inference - INFO - Using device: cuda
+2026-02-12 00:50:12 - src.models.inference - INFO - Loading models...
+2026-02-12 00:50:12 - src.models.inference - INFO - Loading YOLO from runs/detect/experiments/runs/yolo_experiment_1/weights/best.pt
+2026-02-12 00:50:12 - src.models.inference - INFO - Loading relationship model from models/relationship_predictor/neural_motifs_best.pt
+2026-02-12 00:50:12 - src.models.inference - INFO - Loading caption model from models/caption_generator/t5_scene
+2026-02-12 00:50:13 - src.models.inference - INFO - Inference pipeline ready
+2026-02-12 00:50:31 - src.models.inference - INFO - Detecting objects in UploadedFile(file_id='e7d2be72-83ef-4285-90d9-9207a187b805', name='61.jpg', type='image/jpeg', size=73417, _file_urls=file_id: "e7d2be72-83ef-4285-90d9-9207a187b805"
+upload_url: "/_stcore/upload_file/a38d0ae3-0e31-4a1b-85ba-35ce2141a1d2/e7d2be72-83ef-4285-90d9-9207a187b805"
+delete_url: "/_stcore/upload_file/a38d0ae3-0e31-4a1b-85ba-35ce2141a1d2/e7d2be72-83ef-4285-90d9-9207a187b805"
+)
+2026-02-12 00:52:03 - src.models.inference - INFO - Detecting objects in UploadedFile(file_id='cb6363c4-500c-46f4-a4b3-af906518a958', name='61.jpg', type='image/jpeg', size=73417, _file_urls=file_id: "cb6363c4-500c-46f4-a4b3-af906518a958"
+upload_url: "/_stcore/upload_file/2f7b1561-befc-4cce-b0e0-ff492afef320/cb6363c4-500c-46f4-a4b3-af906518a958"
+delete_url: "/_stcore/upload_file/2f7b1561-befc-4cce-b0e0-ff492afef320/cb6363c4-500c-46f4-a4b3-af906518a958"
+)
+2026-02-12 00:52:24 - src.models.inference - INFO - Detecting objects in <PIL.Image.Image image mode=RGB size=800x600 at 0x25CFE6ADA60>
+2026-02-12 00:52:24 - src.models.inference - INFO - Detected 11 objects in 736.3ms
+2026-02-12 00:52:24 - src.models.inference - INFO - Predicting relationships for 11 objects
+2026-02-12 00:55:26 - src.models.inference - INFO - Detecting objects in <PIL.Image.Image image mode=RGB size=800x600 at 0x25CB75E5370>
+2026-02-12 00:55:26 - src.models.inference - INFO - Detected 11 objects in 87.1ms
+2026-02-12 00:55:26 - src.models.inference - INFO - Predicting relationships for 11 objects
+2026-02-12 00:56:01 - src.models.inference - INFO - Using device: cuda
+2026-02-12 00:56:01 - src.models.inference - INFO - Loading models...
+2026-02-12 00:56:01 - src.models.inference - INFO - Loading YOLO from runs/detect/experiments/runs/yolo_experiment_1/weights/best.pt
+2026-02-12 00:56:01 - src.models.inference - INFO - Loading relationship model from models/relationship_predictor/neural_motifs_best.pt
+2026-02-12 00:56:01 - src.models.inference - INFO - Loading caption model from models/caption_generator/t5_scene
+2026-02-12 00:56:02 - src.models.inference - INFO - Inference pipeline ready
+2026-02-12 00:56:02 - src.models.inference - INFO - Detecting objects in <PIL.Image.Image image mode=RGB size=800x600 at 0x25125669D60>
+2026-02-12 00:56:02 - src.models.inference - INFO - Detected 11 objects in 684.2ms
+2026-02-12 00:56:02 - src.models.inference - INFO - Predicting relationships for 11 objects
