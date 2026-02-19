@@ -160,7 +160,7 @@ rasc-project/
 └── README.md
 ```
 ## 🔧 Pipeline Run
-* Refer QUICKSTART.md
+Refer to [QUICKSTART.md](QUICKSTART.md)
 
 ## 🔧 Usage
 

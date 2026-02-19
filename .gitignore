@@ -36,11 +36,11 @@ outputs/
 /data/splits/
 
 # Model artifacts
-models/**/weights/
-*.pt
-*.pth
-*.onnx
-*.ckpt
-*.bin
-*.npz
-*.npy
+# models/**/weights/
+# *.pt
+# *.pth
+# *.onnx
+# *.ckpt
+# *.bin
+# *.npz
+# *.npy
