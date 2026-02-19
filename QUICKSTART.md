@@ -1,6 +1,6 @@
 # RASC Quick Start Guide
 
-This guide will help you get started with RASC quickly.
+This is the guide that will help get started with RASC quickly.
 
 ## Prerequisites
 
@@ -178,11 +178,6 @@ cat experiments/runs/your_experiment/metrics/metrics.json
 cat experiments/runs/your_experiment/metrics/metrics.json | jq .
 ```
 
-### TensorBoard (if enabled)
-
-```bash
-tensorboard --logdir experiments/runs
-```
 
 ## Next Steps
 
@@ -201,8 +196,6 @@ tensorboard --logdir experiments/runs
    python scripts/batch_inference.py --input-dir path/to/images --output-dir results
    ```
 
-4. **Visualize results**
-   - Check out `notebooks/demo.ipynb` for visualization examples
 
 ## Getting Help
 
@@ -221,4 +214,3 @@ tensorboard --logdir experiments/runs
 
 ---
 
-Happy training! 🚀

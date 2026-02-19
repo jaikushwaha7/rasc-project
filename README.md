@@ -4,7 +4,8 @@
 
 ## 🛠 Tech Stack
 
-🐍 Python 3.8+   |   🔥 PyTorch 2.0+
+![Python 3.8+](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
+![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white)
 ![Ultralytics](https://img.shields.io/badge/YOLOv8-Ultralytics-111F68?style=for-the-badge)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow?style=for-the-badge&logo=huggingface)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
@@ -23,17 +24,15 @@
 
 ## 📂 Dataset
 
-![COCO](https://img.shields.io/badge/Dataset-COCO-FF9900?style=for-the-badge)
+![VisualGenome](https://img.shields.io/badge/Dataset-Visual%20Genome-00A3E0?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJMNCAyMGgxNmwtOC0xOHoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=)
 ![Custom Dataset](https://img.shields.io/badge/Custom-Spatial_Relations-blue?style=for-the-badge)
-![Synthetic Pairs](https://img.shields.io/badge/Training-Synthetic_Pairs-lightgrey?style=for-the-badge)
+
 
 ---
 
 ## 🔁 CI/CD
 
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
-![Code Style](https://img.shields.io/badge/Code_Style-PEP8-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 
 
@@ -102,7 +101,7 @@ Image → YOLOv8 → Scene Graph (Objects + Relationships) → T5 → Caption
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rasc.git
+git clone https://github.com/jaikushwaha7/rasc.git
 cd rasc
 
 # Create virtual environment
@@ -147,15 +146,21 @@ rasc-project/
 ├── data/                        # Data directory
 │   ├── raw/
 │   ├── processed/
-│   └── splits/
+│   ├── splits/
 │   └── download_vg.sh
 ├──outputs
 │   └── eval_relationships/      # Evalation results
-├── models/                      # Saved models
+├── models
+│   ├── caption_generator/       # Saved models/
+|   ├── relationship_predictor/  # Saved models
+|   └── yolo_vg2/                # Saved models
+|                       
 ├── requirements.txt
 ├── run_pipeline.py 
 └── README.md
 ```
+## 🔧 Pipeline Run
+* Refer QUICKSTART.md
 
 ## 🔧 Usage
 
@@ -257,7 +262,7 @@ The project includes comprehensive experiment tracking:
 ls experiments/runs/
 
 # View metrics for a specific experiment
-cat experiments/runs/yolo_detection_20240210_143022/metrics/metrics.json
+cat experiments\runs\yolo_experiment_1_20260211_180116\metrics\metrics.json
 ```
 
 ## 🧪 Ablation Studies
@@ -289,6 +294,9 @@ The codebase supports various ablation studies:
 - **Jai Kushwaha** – Object detection, relationship modeling, evaluation, Caption generation, poster design, presentation
 - **Caner Gel** – Code testing, poster design, presentation
 
+## 📄 Poster Presentation
+* [View Poster Presentation File](/relationship-aware-scene-captioning_poster_presentation.pdf)
+
 ## 📚 References
 
 1. Krishna et al., *Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations*, IJCV 2017
@@ -296,6 +304,7 @@ The codebase supports various ablation studies:
 3. Raffel et al., *Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer*, JMLR 2020
 4. Ultralytics, *YOLOv8*, 2023
 5. DSGG:(CVPR 2024 paper): Dense Relation Transformer for an End-to-end Scene Graph Generation: Zeeshan Hayder, Xuming He
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
